@@ -1,0 +1,253 @@
+/* Styles and colors to be used 
+
+dark background (header and footer) #1F2937
+header secondary text #E5E7EB
+header logo text #F9FAF8 
+button color: #3882F6
+quote section background color: #E5E7EB
+quote text: #1F2937
+
+https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
+https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png
+https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page
+
+
+*/
+body{
+    /* border: solid lime; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* **** SECTION ONE **** */
+/* ****************************** */
+
+.SectionOne{
+    background-color: #1F2937;
+    /* border: 1px; */
+    /* margin: 0 20% 0 20%; */
+    padding: 0 15% 90px 15%;
+}
+.pAS{
+    /* paragraph Awesome Site = pAS  */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    float: left;
+    /* border: solid lime; */
+    margin-top: 0px 0px 0px 0px; 
+    padding-left: 90px;
+}
+
+.mainHeading{
+    /* This website is awesome */
+    color: white;
+    font-weight: bold;
+    /* border: solid lime; */
+    display: block;
+    position:relative;
+    left: 7%;
+    bottom: 35px;
+    margin: 0;    
+    /* margin: 100px 0 0 0; */
+    /* padding-left: 15%; */
+}
+
+.mainHeadingParagraph{    
+    color: #E5E7EB;
+    padding-left: 15%;
+    /* border: solid lime; */
+    width: 400px;
+    margin: 5px;
+    display: block;
+    position: relative;
+    bottom: 35px;
+    left: -8.3%;
+}
+
+.button1{
+    /* border: solid lime; */
+    /* margin: 10px 0 0 15%; */
+    padding: 0 14px 2px 14px;
+    display: block;
+    position: relative;
+    bottom: 35px;
+    left: 7.3%;
+    background-color:#3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 6%;
+}
+
+.headerLinks{
+    color: white;
+    /* border: solid lime; */
+    /* float: right; */
+    font-size: 15px;
+    margin: 0px 20px 0px 0; /* USE MARGIN TO SEPARATE CONTENT/BOXES FROM EACH OTHER */
+    padding: 10px 0 0 0%;
+    font-weight: bold;
+    text-decoration: none;
+    display:inline-block;
+    position: relative; 
+    left: 50%;
+    top: -170px;
+    /* border: solid lime;    */
+}
+
+#image1{
+    border: solid white;
+    /* float: right; */
+    margin: 0 0 0 0;
+    /* padding-left: 100px; */
+    position: relative;    
+    left: 15%;
+    bottom: -140px;
+    
+}
+
+/* **** START OF SECTION TWO **** */
+/* ****************************** */
+
+.SectionTwo{
+    background-color: white;
+    /* padding: 0 0 30% 0; */
+    padding: 0 15% 150px 15%;
+}
+.headingTwo{
+    margin: 0 0 60px 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    display: block;
+    /* margin-bottom: 20px; */
+}
+
+.img1, .img2, .img3, .img4 {
+    border: solid rgb(48, 142, 250);
+    border-radius: 4%;
+    position: relative; /* position, the % does not work for TOP and BOTTOM but OK for side to side*/
+    bottom: -40px;
+    left: 25%;
+    margin-right: 50px;
+    /* max-width: 100px;
+    max-height: 100px; */
+}
+
+.S2P1, .S2P2, .S2P3, .S2P4{
+    /* border: solid blue; */
+    padding: 0;
+    margin: 0 60px 0 0px;
+    width: 111px;
+    position:relative;
+    display: inline-block;
+    /* right: 33.3%;
+    top: 130px; */
+    white-space:normal;
+}
+.inline4desc{
+    display: inline-block;
+    margin-right: 0;
+    position: relative;
+    left: 345px;
+    top: 70px;
+}
+
+/* **** START OF SECTION THREE **** */
+/* ****************************** */
+
+.SectionThree{
+    background-color: #E5E7EB;
+    padding: 0 0 330px 0;
+}
+
+.quote{
+    font-style:italic;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    /* border: solid lime; */
+    width: 550px;
+    position: absolute;
+    right: 35%;
+    bottom: -260px;
+}
+.quoteAuthor{
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    /* border: solid lime; */
+    width: 150px;
+    position: absolute;
+    right: 35%;
+    bottom: -270px;
+}
+
+/* **** START OF SECTION FOUR **** */
+/* ****************************** */
+
+/* rgb(57, 118, 250) */
+
+.SectionFour{
+    background-color: white;
+    padding: 0 0 300px 0;
+}
+.S4Rectangle{
+    background-color: rgb(57, 118, 250);
+    padding: 0px;
+    height: 150px;
+    width: 700px;    
+    position:absolute;
+    bottom: -600px;
+    right:32%;
+    border-radius: 10px;
+}
+
+.S4mainHeading{
+    color: white;
+    font-weight: bold;
+    /* border: solid lime;    */
+    position:absolute;
+    bottom: -530px;
+    right:52%;
+}
+.S4mainText{
+    color: white;
+    /* border: solid lime;    */
+    position:absolute;
+    bottom: -590px;
+    right:47.6%;
+}
+.S4Button1{
+    color: white;
+    background-color: rgb(57, 118, 250);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2px 16px 2px 16px;
+    /* border: solid lime;    */
+    position:absolute;
+    bottom: -550px;
+    right:37.6%;
+}
+.S4Button1:hover{
+    opacity: 85%;
+    cursor: pointer;
+}
+.S4Button1:active{
+    background-color: rgb(42, 108, 250);
+
+}
+
+
+
+
+
+
+
+
+
